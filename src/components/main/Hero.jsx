@@ -1,10 +1,11 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileImg from "../../assets/profile.png";
 import { motion } from "motion/react";
 function Hero() {
   return (
     <section
       id="Home"
-      className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0 lg:py-40"
+      className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0"
     >
       {/* introduction */}
       <motion.div className="space-y-4 text-center lg:text-left">
@@ -12,7 +13,7 @@ function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3, ease: "linear" }}
-          className="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-7xl"
+          className="section-heading lg:text-7xl"
         >
           Hi, There I&apos;m Ratul
         </motion.h3>
@@ -24,20 +25,28 @@ function Hero() {
         >
           I&apos;m a <strong>React Developer</strong>
         </motion.p>
-        <motion.button
+        <motion.div
+          className="flex items-center gap-2"
           initial={{ opacity: 0, translateY: "50%" }}
           animate={{ opacity: 1, translateY: "0%" }}
           transition={{ duration: 0.5, delay: 1, ease: "linear" }}
-          className="btn"
         >
-          Download Resume
-        </motion.button>
+          <a href="https://www.github.com/ratul0407" target="_blank">
+            <FaGithub size={35} />
+          </a>
+          <a href="https://www.linkedin.com/in/ratul0407" target="_blank">
+            <FaLinkedin size={35} />
+          </a>
+          <button className="btn btn-neutral lock hover:bg-black/85">
+            Download Resume
+          </button>
+        </motion.div>
       </motion.div>
       {/* img */}
       <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.5, ease: "anticipate" }}
+        initial={{ scale: 0.5, opacity: 0, translateY: "150px" }}
+        animate={{ scale: 1, opacity: 1, translateY: "0px" }}
+        transition={{ duration: 1.5, delay: 1, ease: "anticipate" }}
       >
         <div className="z-10 flex h-80 w-80 items-center justify-center rounded-full bg-white">
           <img className="mx-auto h-52 grayscale-100" src={profileImg} />

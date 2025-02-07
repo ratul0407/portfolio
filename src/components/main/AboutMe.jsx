@@ -4,7 +4,7 @@ function AboutMe() {
       className="space-y-4 py-8 sm:space-y-6 lg:flex lg:scroll-mt-24 lg:justify-between"
       id="About"
     >
-      <h3 className="text-3xl font-bold sm:text-4xl md:text-5xl">About Me</h3>
+      <h3 className="section-heading">About Me</h3>
       <div className="space-y-4 text-gray-600 sm:space-y-6 lg:w-1/2">
         <p>
           Hello, My name is MD. Rajaul Islam Ratul. And I am a

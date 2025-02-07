@@ -5,7 +5,8 @@ function Tab({ children, setPosition }) {
   const ref = useRef(null);
   console.log(children);
   return (
-    <li
+    <a
+      href={`#${children}`}
       ref={ref}
       onClick={() => {
         if (!ref.current) return;
@@ -15,10 +16,8 @@ function Tab({ children, setPosition }) {
       }}
       className="link-list"
     >
-      <a className="link-list" href={`#${children}`}>
-        {children}
-      </a>
-    </li>
+      {children}
+    </a>
   );
 }
 

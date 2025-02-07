@@ -14,13 +14,9 @@ html {
 }
 @layer components {
   .link-list {
-    z-index: 10;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
-    color: white;
-    mix-blend-mode: difference;
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
+    @apply relative z-10 cursor-pointer px-5 py-2 text-white uppercase mix-blend-difference;
+  }
+  .section-heading {
+    @apply text-3xl font-bold sm:text-4xl md:text-5xl;
   }
 }

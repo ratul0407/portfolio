@@ -12,7 +12,7 @@ function Projects() {
   return (
     <section id="Projects" className="lg:scroll-mt-36">
       <div className="space-y-4 lg:space-y-6">
-        <h3 className="text-3xl font-bold sm:text-4xl md:text-5xl">Projects</h3>
+        <h3 className="section-heading">Projects</h3>
         <div className="grid grid-cols-1 items-center justify-center gap-8 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:gap-16">
           {/* project 1 */}
           {projectImgs.map(({ img, name }, index) => {
@@ -22,7 +22,7 @@ function Projects() {
                 className={`${index !== 2 ? "col-span-2" : "col-start-2 col-end-4"} space-y-6 self-center`}
               >
                 <Link
-                  to={`/projects/${name}`}
+                  to={`/projects/${++index}`}
                   className="flex items-center text-xl font-bold underline"
                 >
                   <span>.0{`${++index} ${name}`}</span>{" "}
@@ -33,9 +33,12 @@ function Projects() {
                   src={img}
                   alt={name}
                 />
-                <button className="btn btn-neutral transition-all duration-500 hover:-translate-y-2 hover:bg-black/85">
+                <Link
+                  to={`/projects/${++index}`}
+                  className="btn btn-neutral transition-all duration-500 hover:-translate-y-2 hover:bg-black/85"
+                >
                   View Details
-                </button>
+                </Link>
               </div>
             );
           })}

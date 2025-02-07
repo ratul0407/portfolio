@@ -9,7 +9,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [position, setPosition] = useState({
     left: 0,
-    width: 109.484375,
+    width: 85.484375,
     opacity: 1,
   });
   console.log(menuOpen);
