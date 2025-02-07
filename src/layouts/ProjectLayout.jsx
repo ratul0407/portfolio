@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import project1 from "../assets/project-1.png";
 import { Link, useParams } from "react-router-dom";
 import { FaArrowUp, FaGithub } from "react-icons/fa";
 function ProjectLayout() {
@@ -18,8 +17,16 @@ function ProjectLayout() {
       });
   }, []);
   // console.log(project);
-  const { name, live_site, github_link, description, img, technologies } =
-    project || {};
+  const {
+    name,
+    improvements,
+    challenges,
+    live_site,
+    github_link,
+    description,
+    img,
+    technologies,
+  } = project || {};
   console.log(github_link);
   console.log(technologies);
   return (
@@ -27,9 +34,18 @@ function ProjectLayout() {
       <div className="flex flex-col gap-8 shadow-xl lg:flex-row">
         <img className="w-full rounded-xl lg:w-1/2" src={img} />
         <div className="space-y-4">
+          <p className="text-xl">{name}</p>
           <p>
             <strong>Project Overview: </strong>
             {description}
+          </p>
+          <p>
+            <strong>Challenges Faced: </strong>
+            {challenges}
+          </p>
+          <p>
+            <strong>improvements: </strong>
+            {improvements}
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4">
             {technologies?.map((item, index) => {
