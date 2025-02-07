@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "name": "Study House",
+    "description": "Study House is an online educational platform that enables teachers to upload, manage, and share learning materials with students. Students can book sessions—both free and paid—to access exclusive materials. The platform integrates secure payment processing through Stripe and handles user authentication via Firebase.",
+    "img": "https://i.ibb.co.com/tT78P1vh/Screenshot-49.png",
+    "technologies": [
+      {
+        "img": "https://i.ibb.co.com/c5XNszW/icons8-tailwindcss-48-1.png",
+        "name": "Tailwind"
+      },
+      {
+        "img": "https://i.ibb.co.com/MySWfn6d/icons8-mongo-db-48-1.png",
+        "name": "Mongodb"
+      },
+      {
+        "img": "https://i.ibb.co.com/LdLjDj5Z/icons8-react-native-48-1.png",
+        "name": "ReactJS"
+      },
+      {
+        "img": "https://i.ibb.co.com/qY9GPHQ8/icons8-express-js-48.png",
+        "name": "ExpressJS"
+      },
+      {
+        "img": "https://i.ibb.co.com/W4qJxYMY/icons8-firebase-48.png",
+        "name": "Firebase"
+      }
+    ],
+    "github_link": "https://github.com/ratul0407/collab-study-client",
+    "live_site": "https://bistro-boss-86657.web.app/",
+    "challenges": "This was by far the biggest project I have ever worked on.",
+    "improvements": "I could've structure the code better. And a lot of code has been reused multiple times. which could've been avoided."
+  },
+  {
+    "id": "2",
+    "name": "Car Heaven",
+    "description": "Car heaven is a project of mine. Where you can buy and sell cars to your need. Users can buy a car. And they can also upload a car with it's details. The entire web page is responsive. And it is built on top of industry standard technologies such as ReactJs, tailwindcss and the component library daisyui.",
+    "img": "https://i.ibb.co.com/gZy1qzt3/Screenshot-51.png",
+    "technologies": [
+      {
+        "img": "https://i.ibb.co.com/c5XNszW/icons8-tailwindcss-48-1.png",
+        "name": "Tailwind"
+      },
+      {
+        "img": "https://i.ibb.co.com/MySWfn6d/icons8-mongo-db-48-1.png",
+        "name": "Mongodb"
+      },
+      {
+        "img": "https://i.ibb.co.com/LdLjDj5Z/icons8-react-native-48-1.png",
+        "name": "ReactJS"
+      },
+      {
+        "img": "https://i.ibb.co.com/qY9GPHQ8/icons8-express-js-48.png",
+        "name": "ExpressJS"
+      },
+      {
+        "img": "https://i.ibb.co.com/W4qJxYMY/icons8-firebase-48.png",
+        "name": "Firebase"
+      }
+    ],
+    "github_link": "https://github.com/ratul0407/car-heaven",
+    "live_site": "https://simple-firebase-1f33b.web.app/",
+    "challenges": "Had a hard time writing backend queries in mongodb. And filtering data using mongodb sort method",
+    "improvements": "There is still scope for better overall code and accessibility improvements"
+  },
+  {
+    "id": "3",
+    "name": "Chill Gamer",
+    "description": "Chill gamer is a project where people can add reviews for a game and share their Game Play experience. Users can  also add games and save a WatchList for their own.",
+    "img": "https://i.ibb.co.com/NgC5C81F/Screenshot-52.png",
+    "technologies": [
+      {
+        "img": "https://i.ibb.co.com/c5XNszW/icons8-tailwindcss-48-1.png",
+        "name": "Tailwind"
+      },
+      {
+        "img": "https://i.ibb.co.com/qY9GPHQ8/icons8-express-js-48.png",
+        "name": "ExpressJS"
+      },
+      {
+        "img": "https://i.ibb.co.com/W4qJxYMY/icons8-firebase-48.png",
+        "name": "Firebase"
+      }
+    ],
+    "github_link": "https://github.com/ratul0407/chill-gamer-client",
+    "live_site": "https://chill-gamer.web.app/",
+    "challenges": "It was difficult for to me implement dark mode using daisyui.",
+    "improvements": "There is still scope for better overall code and accessibility improvements"
+  }
+]

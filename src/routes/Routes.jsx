@@ -1,20 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import Main from "../components/main/Main";
+import App from "../layouts/App";
+import ProjectLayout from "../layouts/ProjectLayout";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Main />,
-      },
-      {
-        path: "/projects/:id",
-      },
-    ],
+  },
+  {
+    path: "/projects/:id",
+    element: <ProjectLayout />,
   },
 ]);
 export default router;

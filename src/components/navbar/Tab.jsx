@@ -6,7 +6,7 @@ function Tab({ children, setPosition }) {
   console.log(children);
   return (
     <a
-      href={`#${children}`}
+      href={`/#${children}`}
       ref={ref}
       onClick={() => {
         if (!ref.current) return;
