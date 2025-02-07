@@ -1,0 +1,22 @@
+/* robot font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tailwindcss and daisyui import */
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-roboto: "Roboto", "serif";
+}
+@layer components {
+  .li {
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    mix-blend-mode: difference;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+  }
+}
