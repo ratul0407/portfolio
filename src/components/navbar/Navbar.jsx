@@ -9,7 +9,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [position, setPosition] = useState({
     left: 0,
-    width: 77.484375,
+    width: 109.484375,
     opacity: 1,
   });
   console.log(menuOpen);
@@ -58,7 +58,7 @@ function Navbar() {
           </button>
         </div>
         {/* desktop nav */}
-        <ul className="relative hidden items-center gap-8 rounded-full border-2 lg:flex">
+        <ul className="relative hidden items-center rounded-full border-2 lg:flex">
           <Tab setPosition={setPosition}>Home</Tab>
           <Tab setPosition={setPosition}>About</Tab>
           <Tab setPosition={setPosition}>Projects</Tab>

@@ -13,9 +13,11 @@ function Tab({ children, setPosition }) {
         console.log(width);
         setPosition({ width, opacity: 1, left: ref.current.offsetLeft });
       }}
-      className="li"
+      className="link-list"
     >
-      <a href={`#${children}`}>{children}</a>
+      <a className="link-list" href={`#${children}`}>
+        {children}
+      </a>
     </li>
   );
 }

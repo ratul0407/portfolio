@@ -13,7 +13,7 @@ html {
   --text-heading: "";
 }
 @layer components {
-  .li {
+  .link-list {
     z-index: 10;
     cursor: pointer;
     position: relative;

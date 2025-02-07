@@ -18,7 +18,7 @@ function Skills() {
     { img: jsImg, text: "Javascript" },
   ];
   return (
-    <section className="py-8 lg:py-20">
+    <section>
       <div className="space-y-4 md:space-y-6 lg:flex lg:flex-row-reverse lg:justify-between">
         <h3 className="text-3xl font-bold sm:text-4xl md:text-5xl">Skills</h3>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3">
