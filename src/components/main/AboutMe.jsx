@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 function AboutMe() {
   return (
     <motion.div
-      whileInView={{}}
       className="space-y-4 py-8 sm:space-y-6 lg:flex lg:justify-between"
       id="About"
     >

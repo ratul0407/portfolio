@@ -10,6 +10,7 @@ html {
 }
 @theme {
   --font-roboto: "Roboto", "serif";
+  --text-heading: "";
 }
 @layer components {
   .li {

@@ -1,4 +1,3 @@
-import { easeIn } from "motion";
 import profileImg from "../../assets/profile.png";
 import { motion } from "motion/react";
 function Hero() {
