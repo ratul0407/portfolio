@@ -3,6 +3,7 @@ import { useRef } from "react";
 
 function Tab({ children, setPosition }) {
   const ref = useRef(null);
+  console.log(children);
   return (
     <li
       ref={ref}
@@ -14,7 +15,7 @@ function Tab({ children, setPosition }) {
       }}
       className="li"
     >
-      {children}
+      <a href={`#${children}`}>{children}</a>
     </li>
   );
 }

@@ -5,6 +5,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+html {
+  scroll-behavior: smooth;
+}
 @theme {
   --font-roboto: "Roboto", "serif";
 }
