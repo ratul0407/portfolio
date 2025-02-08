@@ -30,6 +30,10 @@ function Contact() {
     <section id="Contact" className="mx-auto w-11/12 py-12">
       <div className="space-y-8">
         <h3 className="section-heading">Let&apos;s Talk</h3>
+        <div className="pb-10">
+          <p>Email: rajaulislamratul12@gmail.com</p>
+          <p>Phone: +88 01983411249</p>
+        </div>
         <div>
           <form ref={form} onSubmit={handleSubmit} className="grid">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">

@@ -99,6 +99,7 @@ function ProjectLayout() {
           </div>
           <div className="flex gap-4">
             <Link
+              target="_blank"
               to={`${github_link}`}
               className="flex w-fit items-center gap-2 rounded-xl bg-slate-200 px-2 py-1"
             >
@@ -106,6 +107,7 @@ function ProjectLayout() {
               <FaGithub size={30} />
             </Link>
             <Link
+              target="_blank"
               to={`${live_site}`}
               className="flex w-fit items-center gap-2 rounded-xl bg-slate-200 px-2 py-1"
             >

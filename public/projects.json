@@ -28,8 +28,8 @@
     ],
     "github_link": "https://github.com/ratul0407/collab-study-client",
     "live_site": "https://bistro-boss-86657.web.app/",
-    "challenges": "This was by far the biggest project I have ever worked on.",
-    "improvements": "I could've structure the code better. And a lot of code has been reused multiple times. which could've been avoided."
+    "challenges": "This was by far the biggest project I have ever worked on. And I've struggled a lot in it. If i could start over on this project I would rewrite the backend codes for this one more efficiently.",
+    "improvements": "I could've structure the code better. And a lot of code has been reused multiple times. which could've been avoided. Mu future plan for this is to make it more responsive and user friendly with animations."
   },
   {
     "id": "2",
@@ -61,7 +61,7 @@
     "github_link": "https://github.com/ratul0407/car-heaven",
     "live_site": "https://simple-firebase-1f33b.web.app/",
     "challenges": "Had a hard time writing backend queries in mongodb. And filtering data using mongodb sort method",
-    "improvements": "There is still scope for better overall code and accessibility improvements"
+    "improvements": "There is still scope for better overall code and accessibility improvements. My future plan for this project is to make the ui look much more attractive and soothing."
   },
   {
     "id": "3",
@@ -88,7 +88,7 @@
     ],
     "github_link": "https://github.com/ratul0407/chill-gamer-client",
     "live_site": "https://chill-gamer.web.app/",
-    "challenges": "It was difficult for to me implement dark mode using daisyui.",
-    "improvements": "There is still scope for better overall code and accessibility improvements"
+    "challenges": "It was difficult for to me implement dark mode. But then I eventually learned it.",
+    "improvements": "The code reusability could've been better. And the states could've been handled better. And it could be much more responsive than it it now. My future plans for this project is to make it bigger and make it more scale able."
   }
 ]
