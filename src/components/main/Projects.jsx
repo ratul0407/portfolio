@@ -50,7 +50,7 @@ function Projects() {
                 variants={itemVariants}
                 transition={{ duration: 0.3, delay: 0.3 * id }}
                 key={id}
-                className={`${id !== 3 ? "col-span-2" : "col-start-2 col-end-4"} space-y-6 self-center`}
+                className={`${id !== 3 ? "lg:col-span-2" : "lg:col-start-2 lg:col-end-4"} space-y-6 self-center`}
               >
                 <Link
                   to={`/projects/${id}`}
