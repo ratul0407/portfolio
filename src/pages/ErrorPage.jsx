@@ -16,8 +16,8 @@ function ErrorPage() {
             Go back
           </Link>
           <Link className="btn btn-neutral hover:bg-black/85" to="/">
-            <FaArrowUp className="rotate-45" />
             Go back to home
+            <FaArrowUp className="rotate-45" />
           </Link>
         </div>
       </div>

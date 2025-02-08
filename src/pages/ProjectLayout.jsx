@@ -114,8 +114,8 @@ function ProjectLayout() {
               Live Site <FaArrowUp className="rotate-45" />
             </Link>
           </div>
-          <Link className="btn btn-neutral hover:bg-black/85" to="/">
-            Go Back To Home
+          <Link className="btn btn-neutral hover:bg-black/85" to={-1}>
+            View More projects
           </Link>
         </div>
       </motion.div>
