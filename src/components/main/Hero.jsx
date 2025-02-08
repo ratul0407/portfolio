@@ -5,14 +5,14 @@ function Hero() {
   return (
     <section
       id="Home"
-      className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0"
+      className="flex flex-col items-center justify-between gap-8 lg:scroll-mt-40 lg:flex-row lg:gap-0"
     >
       {/* introduction */}
       <motion.div className="space-y-4 text-center lg:text-left">
         <motion.h3
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.3, ease: "linear" }}
+          transition={{ duration: 0.5, ease: "linear" }}
           className="section-heading lg:text-7xl"
         >
           Hi, There I&apos;m Ratul
@@ -23,7 +23,7 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="lg:text-4xl"
         >
-          I&apos;m a <strong>React Developer</strong>
+          I&apos;m a <strong> React Developer</strong>
         </motion.p>
         <motion.div
           className="flex items-center gap-2"

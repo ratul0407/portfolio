@@ -80,6 +80,10 @@
       {
         "img": "https://i.ibb.co.com/W4qJxYMY/icons8-firebase-48.png",
         "name": "Firebase"
+      },
+      {
+        "img": "https://i.ibb.co.com/LdLjDj5Z/icons8-react-native-48-1.png",
+        "name": "ReactJS"
       }
     ],
     "github_link": "https://github.com/ratul0407/chill-gamer-client",

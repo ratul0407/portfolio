@@ -27,7 +27,9 @@
       }
     ],
     "github_link": "https://github.com/ratul0407/collab-study-client",
-    "live_site": "https://bistro-boss-86657.web.app/"
+    "live_site": "https://bistro-boss-86657.web.app/",
+    "challenges": "This was by far the biggest project I have ever worked on.",
+    "improvements": "I could've structure the code better. And a lot of code has been reused multiple times. which could've been avoided."
   },
   {
     "id": "2",
@@ -57,7 +59,9 @@
       }
     ],
     "github_link": "https://github.com/ratul0407/car-heaven",
-    "live_site": "https://simple-firebase-1f33b.web.app/"
+    "live_site": "https://simple-firebase-1f33b.web.app/",
+    "challenges": "Had a hard time writing backend queries in mongodb. And filtering data using mongodb sort method",
+    "improvements": "There is still scope for better overall code and accessibility improvements"
   },
   {
     "id": "3",
@@ -79,6 +83,8 @@
       }
     ],
     "github_link": "https://github.com/ratul0407/chill-gamer-client",
-    "live_site": "https://chill-gamer.web.app/"
+    "live_site": "https://chill-gamer.web.app/",
+    "challenges": "It was difficult for to me implement dark mode using daisyui.",
+    "improvements": "There is still scope for better overall code and accessibility improvements"
   }
 ]
